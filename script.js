@@ -104,7 +104,7 @@ sissors.addEventListener("click", function (){
     animateChoices();
 })
 
-// animation not mines
+// used animemation from a turtorial video
 function animateChoices(playerWins) {
     playerimg.classList.remove('slide-in-left', 'slide-out-left', 'slide-in-right', 'slide-out-right', 'winner-glow');
     computerimg.classList.remove('slide-in-left', 'slide-out-left', 'slide-in-right', 'slide-out-right', 'winner-glow');
