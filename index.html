@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockpapersissor</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="everything">
+        <div class="scoreandgame">
+            <div class="scorekeeper">
+                <div class="playerscore">
+                    <h1>Player :</h1>
+                    <h1 id="playerscore">number</h1>
+                </div>
+                <div class="winnerdecide">
+                    <h1>Winner: </h1>
+                    <h1 id="whowins">player or computer</h1>
+                </div>
+                <div class="computerscore">
+                    <h1>Computer :</h1>
+                    <h1 id="comnum">number</h1>
+                </div>
+            </div>
+            <div class="gameview">
+                <div class="gamebox">
+                    <div class="playername">
+                        <div class="playersection">
+                            <h1>Player</h1>
+                            <img id="playerchoiceimg" src="" alt="">
+                        </div>
+                        <div class="playersection">
+                            <h1>Computer</h1>
+                            <img id="computerchoiceimg" src="" alt="">
+                        </div>
+                    </div>                    
+                    <div class="playerchoice">
+                        <h1 id="playerpicked"></h1>
+                        <h1 id="computerpicked"></h1>
+                    </div>
+                </div>
+                <div class="choices">
+                    <button id="rock">Rock</button>
+                    <button id="paper">Paper</button>
+                    <button id="sissors">Sissors</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
